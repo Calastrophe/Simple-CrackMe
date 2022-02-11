@@ -8,7 +8,6 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	static HWND firstTextBox;
 	static HWND secondTextBox;
-	bool bypass = false;
 	switch (uMsg)
 	{
 	case WM_CREATE:
