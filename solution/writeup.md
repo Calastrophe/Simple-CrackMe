@@ -6,7 +6,7 @@ For the first step in nearly any CrackMe, it is to run the file and get a feel f
 
 After just simply submitting the generated text, we are aware that we need to either find the needed text or somehow get around that check.
 
-Now what is usually running in my head in this situation before even hitting the debugger is to grasp an idea of what you expect.
+Now what is usually running in my head in this situation before even hitting the debugger is to grasp an idea of what you expect from experience.
 
 Sure, you don't know if the strings are decrypted at run-time, but so far we can assume there is some strncmp() function that is comparing our input with a presumed stored value.
 
